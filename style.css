@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+header.heading{
+    background : url("photos/overlay.png"), url("photos/newyork.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    position: relative;
+    font-size: 18px;
+    margin-left: 30px;
+    top: 50px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+}
+header strong{
+    font-weight: 300;  
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+header ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    right: 20px;
+}
+header ul li{
+        display: block;
+        padding: 30px;
+        float: left;
+}
+header ul li a{
+    font-size: 15px;
+    font-family:'Merriweather', serif ;
+    font-weight: 300;
+    text-transform: uppercase;
+    transition: .2s;
+}
+header ul li a:hover{
+    color: rgba(255, 255, 255, 0.548);
+}
+header #banner{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+
+}
+#banner h2{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#banner p{
+    color: #aaa;
+    font-size: 20px;
+    margin-bottom: 10px;
+   text-transform: uppercase;
+   line-height: 30px;
+   font-weight: 300;
+   letter-spacing: 1px;
+}
+#banner a{
+    padding: 20px 20px;
+    background: rgb(185, 42, 42);
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+#part2{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.container{
+    width: 1000px;
+    padding: 0 auto;
+}
+
+#part2 .container .left{
+    width: 400px;
+    float: left;
+    padding: 70px;
+}
+
+#part2 h2{
+    font-family:'Merriweather', serif ;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 0.767);
+    line-height: 60px;
+}
+#part2 .left p{
+    font-family:'Merriweather', serif ;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(80, 154, 156);
+}
+#part2 .right strong{
+    color: rgba(0, 0, 0, 0.767);
+    font-size: 20px;
+    font-weight: 700;
+}
+#part2 .right{
+    width: 400px;
+    float: right;
+    padding-right: 50px;
+}
+#part2 .right p{
+    line-height: 25px;
+    color: rgb(50, 130, 133);
+    margin-bottom: 30px;
+}
+.clear{
+    clear: both;
+}
+
+#part3{
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+    background: rgb(219, 218, 218);
+    text-align: center;
+}
+#part3 h2{
+    font-family:'Merriweather', serif ;
+    font-size: 40px;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 0.767);
+    line-height: 60px;
+}
+#part3 p{
+    font-family:'Merriweather', serif ;
+    margin: 40px 0;
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(245, 245, 245);
+}
+#part3 .leftphoto{
+    width: 500px;
+    margin: 50px 20px;
+    float: left;
+    background: rgba(0, 0, 0, 0.493);
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px rgb(193, 197, 199);
+    border-radius: 10px;
+}
+
+#part3 .rightphoto{
+    width: 500px;
+    margin: 50px 20px;
+    float: right;
+    background: rgba(0, 0, 0, 0.493);
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 3px rgb(193, 197, 199);
+    border-radius: 10px;
+}
+#part3 img{
+    width: 500px;
+    margin: 0;
+}
+#part3 .container2{
+    width: 1100px;
+    margin: 0 auto;
+}
+#part3 ul{
+    list-style: none;
+}
+#part3 ul li{
+    display: inline-block;
+}
+#part3 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 20px 40px;
+    background: rgba(128, 128, 128, 0.527);
+    color: white;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+#part3 ul li  a:hover{
+    color: rgb(253, 253, 253);
+    background: rgba(128, 128, 128, 0.89);
+
+}
+#part3 ul li:nth-child(2) a{
+    background: rgba(128, 128, 128, 0.527);
+    margin-right: -80px;
+    
+}
+#part3 ul li:nth-child(2) a:hover{
+    color: rgb(253, 253, 253);
+    background: rgba(128, 128, 128, 0.89);
+    
+}
+#part4{
+    width: 100%;
+    padding-top: 50px;
+
+}
+#part4 h2{
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:'Merriweather', serif ;
+    color:rgba(0, 0, 0, 0.822);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#part4 h2+p{
+    font-size: 18px;
+    color: rgb(50, 130, 133);
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#part4 .parts{
+    width: 500px;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+#part4 .parts .littlephoto{
+    float: right;
+    width: 130px;
+   margin: 5px;
+}
+#part4 .parts .littlephoto img{
+    border: 5px solid gray;
+    border-radius: 100%;
+    width: 130px; 
+    height: 130px;
+}
+#part4 .parts .write{
+    float: left;
+    width: 290px;
+    text-align: right;
+    padding: 10px;
+    line-height: 20px;
+}
+#part4 .parts h3{
+    text-align: right;
+    font-size: 18px;
+    color: rgb(50, 130, 133)"";
+}
+#part4 .parts .write h3+p{
+    font-size: 10px;
+    color: rgb(50, 130, 133)    
+}
+#part4 .parts:nth-child(2n) .write{
+    text-align: left;
+    margin-left: 45px;
+}
+
+#part4 .parts:nth-child(2n) .write h3{
+    text-align: left;
+}
+#part4 .parts:nth-child(2n) .littlephoto{
+    float: left;
+}
+#part4 .parts .write p:nth-child(3){
+    color: rgba(50, 130, 133);
+    font-size: 18px;
+}
+#part5{
+    width: 100%;
+    height: 350px;
+    background : url("photos/overlay.png"), url("photos/manatthan.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+#part5 .content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+#part5 .content h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+#part5 .content p{
+    color: rgb(180, 180, 180);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+#part5 .content a{
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 20px 35px;
+    background:rgba(107, 107, 107, 0.822);
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    border-radius: 5px;
+    transition: .5s;
+}
+#part5 .content a:hover{
+    background: rgba(245, 245, 245, 0.774);
+    color: rgba(107, 107, 107, 0.822);
+
+}
+footer{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+footer .socialmedia{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+footer a{
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+footer a[title="facebook"]::before {
+    content: '';
+    background: url("icon/facebook.png") no-repeat;
+    width: 45px;
+	height: 42px;
+	display: inline-block;
+}
+footer a[title="twitter"]::before {
+    content: '';
+    background: url(icon/facebook.png) no-repeat;
+    width: 45px;
+	height: 42px;
+	display: inline-block;
+    
+} 
+footer a[title="twitter"]::before {
+    content: '';
+    background: url(icon/twitter.png) no-repeat;
+    width: 45px;
+	height: 42px;
+	display: inline-block;
+   
+}
+footer a[title="linkedin"]::before {
+    content: '';
+    background: url(icon/linkedin.png) no-repeat;
+    width: 45px;
+	height: 42px;
+	display: inline-block;
+ 
+}
+footer ul{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+footer li{
+    display: inline-block;
+    padding: 2px 25px;
+    
+
+}
+footer ul li p{
+    font-size: 20px;
+    font-family:'Merriweather', serif ;
+    color: darkgray;
+    
+}
+footer ul li:nth-child(-n+2){
+    border-right: 2px solid darkgray;
+}
